@@ -53,7 +53,7 @@ function generatePassword() {
     if (hasSpecialChars === true) {
         passwordCharacters += specialCharacters;
     } else {
-        alert("Cannot generate a password");
+        alert("Error: Cannot generate a password!");
     }
     for (var i = 0; i < pwLength; i++) {
         userPassword += passwordCharacters[Math.floor(Math.random() * passwordCharacters.length)];
