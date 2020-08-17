@@ -1,25 +1,17 @@
 # Password-Generator
-The Password Generator
-## Acceptance Criteria
+The Password Generator is an web application created using HTML, CSS, and JavaScript. It asks you for the criteria for the password inluding:
+1) Password length (between 8-20 characters)
+2) Include lowercase letters?
+3) Include uppercase letters? 
+4) Include numbers?
+5) Include special characters?
 
-```
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN prompted for character types to include in the password
-THEN I choose lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-```
+When you enter the critera the generator will generate a unique password for you base on the critera entered. If you Select critera that does not follow the parameters it will prompt you with an error letting you know that it can't generate a password and you will have to try again!
 
-The following image demonstrates the application functionality:
+Instructions: 
+(My github pages is currently not working. I'v talked with the instructor and he told me to note in the homework that my pages URL http://arahants.io/Responsive-Portfolio/ is not working. I am actively working with github support to try to reset the pages link to the 0216johnson.github.io. I am also working with the tutors on BCS. The one tutor I had on saturday was not able to figure out how to reset it with me in the 40min session.)
+
+Clone lab: git clone git@github.com:0216johnsoneric/Responsive-Portfolio.git
+Run in Browser w/ localhost or VS code browser extension
 
 ![password generator demo](./Assets/03-javascript-homework-demo.png)
