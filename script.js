@@ -4,7 +4,7 @@ var generateBtn = document.querySelector("#generate");
 const lowercase = "abcdefghijklmnopqrstuvwxyz";
 const uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const numbers = "0123456789";
-const specialCharacters = "!@#$%^&*()_+~`|}{[]:;?><,./-=";
+const specialCharacters = "!@#$%^&*()_|}{[]:;?><,./-=+~`";
 const pwLength = "";
 
 // Write password to the #password input
@@ -21,11 +21,11 @@ function generatePassword() {
 
     // ask user the length of password
     let pwLength = prompt(
-        "Please select the length of your password. (Between 8 - 20 characters)"
+        "Please select the length of your password. (Between 8 - 128 characters)"
     );
 
     // check if password between 8 and 20 characters
-    if (pwLength >= 8 && pwLength <= 20) {
+    if (pwLength >= 8 && pwLength <= 128) {
         password.length = pwLength;
 
         // does user want lowercase letters
@@ -37,7 +37,7 @@ function generatePassword() {
         // does user want special characters
         var hasSpecialChars = confirm("Include sepcial characters in password?");
     } else {
-        alert("Please select a password between 8-20 characters");
+        alert("Please select a password between 8-128 characters");
     }
 
     // CONDITIONALS STATEMENTS
