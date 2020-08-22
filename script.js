@@ -1,5 +1,4 @@
 var generateBtn = document.querySelector("#generate");
-// var copyBtn = document.querySelector("#copy");
 
 const lowercase = "abcdefghijklmnopqrstuvwxyz";
 const uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
