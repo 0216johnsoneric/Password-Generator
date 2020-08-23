@@ -1,6 +1,6 @@
 # Password-Generator
 The Password Generator is an web application created using HTML, CSS, and JavaScript. It asks you for the criteria for the password inluding:
-1) Password length (between 8-20 characters)
+1) Password length (between 8-128 characters)
 2) Include lowercase letters?
 3) Include uppercase letters? 
 4) Include numbers?
