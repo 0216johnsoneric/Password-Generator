@@ -7,7 +7,6 @@ The Password Generator is an web application created using HTML, CSS, and JavaSc
 5) Include special characters?
 
 When you enter the critera the generator will generate a unique password for you based on the critera entered. If you Select critera that does not follow the parameters it will prompt you with an error letting you know that it can't generate a password and you will have to try again!
-Youtube demostration link: https://www.youtube.com/watch?v=Pn7js-M35vY&feature=youtu.be
 
 Instructions: 
 Github Pages: https://0216johnsoneric.github.io/Password-Generator/
