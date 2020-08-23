@@ -28,9 +28,9 @@ function generatePassword() {
         password.length = pwLength;
 
         // does user want lowercase letters
-        var isLowerCase = confirm("Include lowercase letters in password?");
+        var isLowercase = confirm("Include lowercase letters in password?");
         // does user want uppercase letters
-        var isUpperCase = confirm("Include uppercase letters in password?");
+        var isUppercase = confirm("Include uppercase letters in password?");
         // does user want numbers
         var isNumeric = confirm("Include numbers in password?");
         // does user want special characters
@@ -40,10 +40,10 @@ function generatePassword() {
     }
 
     // CONDITIONALS STATEMENTS
-    if (isLowerCase) {
+    if (isLowercase) {
         passwordCharacters += lowercase;
     }
-    if (isUpperCase) {
+    if (isUppercase) {
         passwordCharacters += uppercase;
     }
     if (isNumeric) {
