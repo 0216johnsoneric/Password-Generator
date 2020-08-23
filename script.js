@@ -40,16 +40,16 @@ function generatePassword() {
     }
 
     // CONDITIONALS STATEMENTS
-    if (isLowerCase === true) {
+    if (isLowerCase) {
         passwordCharacters += lowercase;
     }
-    if (isUpperCase === true) {
+    if (isUpperCase) {
         passwordCharacters += uppercase;
     }
-    if (isNumeric === true) {
+    if (isNumeric) {
         passwordCharacters += numbers;
     }
-    if (hasSpecialChars === true) {
+    if (hasSpecialChars) {
         passwordCharacters += specialCharacters;
     } else {
         alert("Error: Cannot generate a password!");
